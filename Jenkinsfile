@@ -1,7 +1,7 @@
 node {
   try {
     stage('checkout') {
-      echo "TODO:  Checkout mobile-lib master branch"
+      echo "TODO:  Checkout swift master branch"
     }
     stage('prepare') {
       sh "git clean -fdx"
